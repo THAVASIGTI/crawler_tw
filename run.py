@@ -163,12 +163,9 @@ class Manager():
         self.dp = DataParser()
 
         #assgin variables
-        # self.tag = self.getTag()
-        # self.user = self.getUser()
-        # self.passwd = self.getPasswdOption()
-        self.tag = "#CyCloneUpdate"
-        self.user = "geneshanthavasi1032000@gmail.com"
-        self.passwd = "gtiGTI@1032000"
+        self.tag = self.getTag()
+        self.user = self.getUser()
+        self.passwd = self.getPasswdOption()
 
     def manager(self):
         try:
